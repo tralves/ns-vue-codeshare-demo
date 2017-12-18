@@ -1,0 +1,18 @@
+/* Your CSS goes here */
+
+.even {
+    color: red;
+}
+
+.odd {
+    color: blue;
+}
+label[data-v-0f0e8576] {
+  color: red;
+}
+
+label {
+  color: green;
+}
+span {
+  color: blue; }

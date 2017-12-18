@@ -1,0 +1,5 @@
+{
+  "main": "app.js",
+  "name": "nativescript-vue-webpack",
+  "version": "0.1.0"
+}
