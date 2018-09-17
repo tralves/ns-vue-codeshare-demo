@@ -1,32 +1,47 @@
-# NativeScript-Vue Application
+# NativeScript-Vue / Web code-sharing app
 
-> A native application built with NativeScript-Vue
+> A native application built with NativeScript-Vue, sharing code with a web app.
 
 ## Usage
 
-``` bash
-# Install dependencies
-npm install
+### Getting started
 
-# Build for production
-npm run build
-npm run build:<platform>
+```bash
+git clone tralves/ns-vue-codeshare-demo <your-project-name>
 
-# Build, watch for changes and debug the application
-npm run debug
-npm run debug:<platform>
+cd <your-project-name>
 
-# Build, watch for changes and run the application
-npm run watch
-npm run watch:<platform>
-
-# Clean the NativeScript application instance (i.e. rm -rf dist)
-npm run clean
-
-# Build for web
-webpack --config webpack.dev.config.js
+npm i
 ```
 
-> When invoking the various npm scripts, omitting the platform will attempt to launch `tns` for both platforms, which will only work in a properly configured OSX environment.
+### Native apps
 
-For detailed instructions, see https://github.com/nativescript-vue/vue-cli-template
+```bash
+# Build for production
+tns build <platform> --bundle
+
+# Build, watch for changes and debug the application
+tns debug <platform> --bundle
+
+# Build, watch for changes and run the application
+tns run <platform> --bundle
+```
+
+### Web apps
+
+```bash
+# Start dev server with hot module reload
+yarn web:start
+
+# Build for production
+yarn web:build
+
+# Build for development
+yarn web:dev
+```
+
+The app is built in `platforms/web`.
+
+## How to develop code-sharing apps?
+
+> coming soon...

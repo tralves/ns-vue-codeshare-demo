@@ -1,0 +1,39 @@
+@import 'variables';
+
+html,
+body {
+  color: $secondary;
+  height: 100%;
+}
+
+body {
+  background: $background;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.page {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: center;
+
+  > * {
+    margin: 5px 0;
+  }
+
+  img {
+    align-self: center;
+  }
+}
+
+button {
+  height: 30px;
+  background-color: #00beff;
+  color: white;
+  text-transform: uppercase;
+}

@@ -2,7 +2,7 @@
   "android": {
     "v8Flags": "--expose_gc"
   },
-  "main": "app.js",
-  "name": "my-vue-cli-project",
+  "main": "main.native",
+  "name": "nsvue2codesharedemo",
   "version": "1.0.0"
 }
