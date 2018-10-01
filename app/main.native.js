@@ -1,4 +1,7 @@
 import Vue from 'nativescript-vue'
+import VueDevtools from 'nativescript-vue-devtools'
+
+Vue.use(VueDevtools)
 
 import HelloWorld from './components/HelloWorld'
 
